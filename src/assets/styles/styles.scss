@@ -1,0 +1,33 @@
+$primary-color: #007bff;
+$secondary-color: #f8f9fa;
+$text-color: #333;
+
+.text-analyzer {
+  margin: auto;
+  background: $secondary-color;
+  padding: 20px;
+  border-radius: 10px;
+  h2 {
+    color: $primary-color;
+  }
+  .custom-textarea {
+    border: 2px solid $primary-color;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+  }
+  .btn-primary {
+    background: $primary-color;
+    border: none;
+    &:hover {
+      background-color: #075cb8;
+    }
+  }
+
+  .results {
+    background: white;
+    border-left: 5px solid $primary-color;
+    padding: 15px;
+    border-radius: 5px;
+  }
+}
